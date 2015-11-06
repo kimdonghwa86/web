@@ -1,10 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html >
 <html>
 <head>
-<meta charset=UTF-8">
+<meta charset="UTF-8">
 <title>index.jsp</title>
+<c:url  var="bootstrap" value="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+<c:url var="jquery" value="/node_modules/jquery/dist/jquery.js"/>
+
+<link rel="stylesheet" href="${bootstrap}"/>     				 <!-- 버튼색깔이 간지, 경로 유의 -->
+<script type="text/javascript" src="${jquery}"></script>
+
+
+
 <style type="text/css">
 		
 		@keyframes xxx {
@@ -37,10 +46,10 @@
 
 <ol>
 	<li><a href="map/map2.jsp">map2.jsp</a></li> <!-- 앵커테그 -->
+	<li><a href="map/myLocation.jsp">myLocation.jsp</a></li>
 	<li></li>
 	<li></li>
-	<li></li>
-
+	
 
 </ol>
 
