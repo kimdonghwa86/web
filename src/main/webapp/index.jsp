@@ -3,7 +3,7 @@
 <!DOCTYPE html >
 <html>
 <head>
-<meta charset=EUC-KR">
+<meta charset=UTF-8">
 <title>index.jsp</title>
 <style type="text/css">
 		
@@ -26,9 +26,23 @@
 </head>
 <body>
 
-	<h1>홈페이지의 로고를 만들수있다.<br><tr>
+	<h1 id="tomcat">홈페이지의 로고를 만들수있다.<br><tr>
 		X방향으로 360도 회전ㅋ</h1>
+<script type="text/javascript">
+	tomcat.onclick = function(){
+		alert("WOW!! 정상작동중입니다.");
+	}
 
+</script>
+
+<ol>
+	<li><a href="map/map2.jsp">map2.jsp</a></li> <!-- 앵커테그 -->
+	<li></li>
+	<li></li>
+	<li></li>
+
+
+</ol>
 
 
 
